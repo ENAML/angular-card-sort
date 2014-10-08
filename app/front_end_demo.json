@@ -1,0 +1,284 @@
+{ 
+	"data" : [	
+	{
+		"tags" : "kathryn",
+		"shortDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae facilisis ligula.",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae facilisis ligula.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae facilisis ligula.",
+		"mapID" : "TidepoolsBaseMap",
+		"subType" : "Lecture",
+		"type" : "place",
+		"world" : false,
+		"id" : "Kathryn_Gordon",
+		"name" : "Kathryn Gordon",
+		"feed" : [ ],
+		"permissions" : {
+			"admins" : [ ],
+			"viewers" : [ ]
+		},
+		"loc_nicknames_stripe" : [ ],
+		"loc_nicknames" : [ ],
+		"stats" : {
+			"avatar" : "uploads/63655522.png",
+			"imGoing" : [ ],
+			"checkIn" : [ ]
+		},
+		"loc" : [
+			42.36323711744393,
+			-83.07655334472656
+		],
+		"__v" : 0
+	},
+	{
+		"tags" : "terrance",
+		"shortDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae facilisis ligula.",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae facilisis ligula.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae facilisis ligula.",
+		"mapID" : "TidepoolsBaseMap",
+		"subType" : "Lecture",
+		"type" : "place",
+		"world" : false,
+		"id" : "Terrance_Howard",
+		"name" : "Terrance Howard",
+		"feed" : [ ],
+		"permissions" : {
+			"admins" : [ ],
+			"viewers" : [ ]
+		},
+		"loc_nicknames_stripe" : [ ],
+		"loc_nicknames" : [ ],
+		"stats" : {
+			"avatar" : "img/tidepools/default.jpg",
+			"imGoing" : [ ],
+			"checkIn" : [ ]
+		},
+		"loc" : [
+			42.36393472534638,
+			-83.05784225463867
+		],
+		"__v" : 0
+	},
+	{
+		"tags" : "cat",
+		"shortDescription" : "Lorem ipsum dolor sit amet, nam te stet liberavisse.",
+		"description" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at. Eam an modo iusto, ex fabellas pericula percipitur duo. Quaestio evertitur adolescens id est. Option pertinax est ut.",
+		"mapID" : "TidepoolsBaseMap",
+		"subType" : "Award Nominee",
+		"type" : "place",
+		"world" : false,
+		"id" : "Cats",
+		"name" : "Cats",
+		"feed" : [ ],
+		"permissions" : {
+			"admins" : [ ],
+			"viewers" : [ ]
+		},
+		"loc_nicknames_stripe" : [ ],
+		"loc_nicknames" : [ ],
+		"stats" : {
+			"avatar" : "uploads/64097577.png",
+			"imGoing" : [ ],
+			"checkIn" : [ ]
+		},
+		"loc" : [
+			42.356831446447515,
+			-83.08135986328124
+		],
+		"__v" : 0
+	},
+	{
+		"tags" : "buffy",
+		"shortDescription" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at.",
+		"description" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at. Eam an modo iusto, ex fabellas pericula percipitur duo. Quaestio evertitur adolescens id est. Option pertinax est ut.",
+		"mapID" : "TidepoolsBaseMap",
+		"subType" : "Award Nominee",
+		"type" : "place",
+		"world" : false,
+		"id" : "Buffy_the_Vampire_Slayer",
+		"name" : "Buffy the Vampire Slayer",
+		"feed" : [ ],
+		"permissions" : {
+			"admins" : [ ],
+			"viewers" : [ ]
+		},
+		"loc_nicknames_stripe" : [ ],
+		"loc_nicknames" : [ ],
+		"stats" : {
+			"avatar" : "uploads/90802574.jpg",
+			"imGoing" : [ ],
+			"checkIn" : [ ]
+		},
+		"loc" : [
+			42.356886,
+			-83.069523
+		],
+		"__v" : 0
+	},
+	{
+		"shortDescription" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at.",
+		"description" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at. Eam an modo iusto, ex fabellas pericula percipitur duo. Quaestio evertitur adolescens id est. Option pertinax est ut.",
+		"mapID" : "TidepoolsBaseMap",
+		"subType" : "Award Nominee",
+		"type" : "place",
+		"world" : false,
+		"id" : "Kate_Bush",
+		"name" : "Kate Bush",
+		"feed" : [ ],
+		"permissions" : {
+			"admins" : [ ],
+			"viewers" : [ ]
+		},
+		"loc_nicknames_stripe" : [ ],
+		"loc_nicknames" : [ ],
+		"stats" : {
+			"avatar" : "uploads/36342838.jpg",
+			"imGoing" : [ ],
+			"checkIn" : [ ]
+		},
+		"loc" : [
+			42.356577743063816,
+			-83.07028770446777
+		],
+		"__v" : 0
+	},
+	{
+		"shortDescription" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at.",
+		"description" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at. Eam an modo iusto, ex fabellas pericula percipitur duo. Quaestio evertitur adolescens id est. Option pertinax est ut.",
+		"mapID" : "TidepoolsBaseMap",
+		"subType" : "Show",
+		"type" : "place",
+		"world" : false,
+		"id" : "Gems",
+		"name" : "Gems",
+		"feed" : [ ],
+		"permissions" : {
+			"admins" : [ ],
+			"viewers" : [ ]
+		},
+		"loc_nicknames_stripe" : [ ],
+		"loc_nicknames" : [ ],
+		"stats" : {
+			"avatar" : "uploads/67051675.jpg",
+			"imGoing" : [ ],
+			"checkIn" : [ ]
+		},
+		"loc" : [
+			42.362412661754455,
+			-83.0829906463623
+		],
+		"__v" : 0
+	},
+	{
+		"shortDescription" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at.",
+		"description" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at. Eam an modo iusto, ex fabellas pericula percipitur duo. Quaestio evertitur adolescens id est. Option pertinax est ut.",
+		"mapID" : "TidepoolsBaseMap",
+		"subType" : "Show",
+		"type" : "place",
+		"world" : false,
+		"id" : "Performance",
+		"name" : "Performance",
+		"feed" : [ ],
+		"permissions" : {
+			"admins" : [ ],
+			"viewers" : [ ]
+		},
+		"loc_nicknames_stripe" : [ ],
+		"loc_nicknames" : [ ],
+		"stats" : {
+			"avatar" : "uploads/42802587.jpg",
+			"imGoing" : [ ],
+			"checkIn" : [ ]
+		},
+		"loc" : [
+			42.34820495680963,
+			-83.06058883666992
+		],
+		"__v" : 0
+	},
+	{
+		"shortDescription" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at.",
+		"description" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at. Eam an modo iusto, ex fabellas pericula percipitur duo. Quaestio evertitur adolescens id est. Option pertinax est ut.",
+		"mapID" : "TidepoolsBaseMap",
+		"subType" : "Show",
+		"type" : "place",
+		"world" : false,
+		"id" : "Kathryn_Gordon_Show",
+		"name" : "Kathryn Gordon Show",
+		"feed" : [ ],
+		"permissions" : {
+			"admins" : [ ],
+			"viewers" : [ ]
+		},
+		"loc_nicknames_stripe" : [ ],
+		"loc_nicknames" : [ ],
+		"stats" : {
+			"avatar" : "uploads/11100775.png",
+			"imGoing" : [ ],
+			"checkIn" : [ ]
+		},
+		"loc" : [
+			42.35714857423679,
+			-83.08101654052734
+		],
+		"__v" : 0
+	},
+	{
+		"tags" : "teju",
+		"shortDescription" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at.",
+		"description" : "Lorem ipsum dolor sit amet, nam te stet liberavisse. Fugit facete duo at, has oratio invidunt at. Eam an modo iusto, ex fabellas pericula percipitur duo. Quaestio evertitur adolescens id est. Option pertinax est ut.",
+		"mapID" : "TidepoolsBaseMap",
+		"subType" : "Lecture",
+		"type" : "place",
+		"world" : false,
+		"id" : "Teju_Cole_Open_City_Ads",
+		"name" : "Teju Cole: Open City Ads",
+		"feed" : [ ],
+		"permissions" : {
+			"admins" : [ ],
+			"viewers" : [ ]
+		},
+		"loc_nicknames_stripe" : [ ],
+		"loc_nicknames" : [ ],
+		"stats" : {
+			"avatar" : "uploads/3711931.jpg",
+			"imGoing" : [ ],
+			"checkIn" : [ ]
+		},
+		"loc" : [
+			42.36393472534638,
+			-83.05784225463867
+		],
+		"__v" : 0
+	},
+	{
+		"mapID" : "TidepoolsBaseMap",
+		"subType" : "Lecture",
+		"type" : "event",
+		"world" : false,
+		"id" : "test",
+		"name" : "test",
+		"feed" : [ ],
+		"permissions" : {
+			"admins" : [ ],
+			"viewers" : [ ]
+		},
+		"loc_nicknames_stripe" : [ ],
+		"loc_nicknames" : [ ],
+		"stats" : {
+			"avatar" : "uploads/44927805.png",
+			"imGoing" : [ ],
+			"checkIn" : [ ]
+		},
+		"timetext" : {
+			"timeend" : "05:45 PM",
+			"timestart" : "05:45 PM",
+			"dateend" : "2014-05-12T21:57:02.462Z",
+			"datestart" : "2014-05-12T21:57:02.462Z"
+		},
+		"loc" : [
+			42.356886,
+			-83.069523
+		],
+		"__v" : 0
+	}
+]
+
+}

@@ -1,0 +1,49 @@
+<div class="header">
+  <h3 class="text-muted">code_test</h3>
+</div>
+
+<div class="row marketing">
+  <br/>
+  <h1>Lectures</h1>
+  <div ng-repeat="item in lectures">
+    <span ng-if="$index == 0">
+      <h2><a href="" >{{item.name}}</a></h2>
+      <p ng-if="item.shortDescription">{{item.shortDescription}}</p>
+      <p ng-if="!item.shortDescription">No description available.</p>
+    </span>
+    <span ng-if="$index != 0">
+      <h4><a href="" ng-click="toTop(item, lectures)">{{item.name}}</a></h4>
+    </span>
+  </div>
+  <br/>
+
+  <h1>Shows</h1>
+  <div ng-repeat="item in shows">
+    <span ng-if="$index == 0">
+      <h2><a href="" >{{item.name}}</a></h2>
+      <p ng-if="item.shortDescription">{{item.shortDescription}}</p>
+      <p ng-if="!item.shortDescription">No description available.</p>
+    </span>
+    <span ng-if="$index != 0">
+      <h4><a href="" ng-click="toTop(item, shows)">{{item.name}}</a></h4>
+    </span>
+  </div>
+  <br/>
+
+  <h1>Award Nominees</h1>
+  <div ng-repeat="item in awardNominees">
+    <span ng-if="$index == 0">
+      <h2><a href="">{{item.name}}</a></h2>
+      <p ng-if="item.shortDescription">{{item.shortDescription}}</p>
+      <p ng-if="!item.shortDescription">No description available.</p>
+    </span>
+    <span ng-if="$index != 0">
+      <h4><a href="" ng-click="toTop(item, awardNominees)">{{item.name}}</a></h4>
+    </span>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p><span class="glyphicon glyphicon-heart"></span> Interface Foundry</p>
+</div>

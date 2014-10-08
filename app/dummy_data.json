@@ -1,0 +1,593 @@
+[{
+   "_id":{
+      "$oid":"53f4d63348a5ce0aa52f6bc2"
+   },
+   "name":"World 1",
+   "id":"World_1",
+   "world":true,
+   "valid":true,
+   "avatar":"img/tidepools/default.jpg",
+   "tags":[
+
+   ],
+   "permissions":{
+      "ownerID":"53c6b2c071109400002078c6",
+      "admins":[
+
+      ],
+      "viewers":[
+
+      ]
+   },
+   "timetext":{
+      "timeend":"2014-08-20T19:06:31.132Z",
+      "timestart":"2014-08-20T17:06:31.132Z",
+      "dateend":"2014-08-22T04:00:00.000Z",
+      "datestart":"2014-08-20T17:06:31.132Z"
+   },
+   "time":{
+      "end":{
+         "$date":"1969-12-31T19:00:00.000-0500"
+      },
+      "start":{
+         "$date":"1969-12-31T19:00:00.000-0500"
+      },
+      "created":{
+         "$date":"2014-08-20T13:09:07.306-0400"
+      }
+   },
+   "style":{
+      "styleID":"53f4d63348a5ce0aa52f6bc1",
+      "maps":{
+         "cloudMapID":"interfacefoundry.ig6a7dkn",
+         "cloudMapName":"urban",
+         "type":"cloud"
+      },
+      "markers":{
+         "name":"red",
+         "category":"all"
+      }
+   },
+   "landmarkCategories":[
+
+   ],
+   "subType":[
+    "Lecture"
+   ],
+   "loc":{
+      "type":"Point",
+      "coordinates":[
+         -73.94721559999999,
+         40.6825865
+      ]
+   },
+   "__v":0
+},{
+   "_id":{
+      "$oid":"53f4d6ab48a5ce0aa52f6bc5"
+   },
+   "name":"World 2",
+   "id":"World_2",
+   "world":true,
+   "valid":true,
+   "avatar":"img/tidepools/default.jpg",
+   "tags":[
+
+   ],
+   "permissions":{
+      "ownerID":"53c6b2c071109400002078c6",
+      "admins":[
+
+      ],
+      "viewers":[
+
+      ]
+   },
+   "time":{
+      "created":{
+         "$date":"2014-08-20T13:11:07.279-0400"
+      }
+   },
+   "style":{
+      "styleID":"53f4d6ab48a5ce0aa52f6bc4",
+      "maps":{
+         "cloudMapID":"interfacefoundry.ig6a7dkn",
+         "cloudMapName":"urban",
+         "type":"cloud"
+      },
+      "markers":{
+         "name":"red",
+         "category":"all"
+      }
+   },
+   "landmarkCategories":[
+
+   ],
+   "subType":[
+    "Show"
+   ],
+   "loc":{
+      "type":"Point",
+      "coordinates":[
+         -73.94718289375307,
+         40.68264358381947
+      ]
+   },
+   "__v":0
+},{
+   "_id":{
+      "$oid":"53f4d6d648a5ce0aa52f6bc8"
+   },
+   "name":"World 3",
+   "id":"World_3",
+   "world":true,
+   "valid":true,
+   "avatar":"img/tidepools/default.jpg",
+   "tags":[
+
+   ],
+   "permissions":{
+      "ownerID":"53c6b2c071109400002078c6",
+      "admins":[
+
+      ],
+      "viewers":[
+
+      ]
+   },
+   "timetext":{
+      "timeend":"2014-08-20T21:11:13.107Z",
+      "timestart":"2014-08-20T14:11:13.107Z",
+      "dateend":"2014-08-20T04:00:00.000Z",
+      "datestart":"2014-08-19T17:11:13.107Z"
+   },
+   "time":{
+      "end":{
+         "$date":"1969-12-31T19:00:00.000-0500"
+      },
+      "start":{
+         "$date":"1969-12-31T19:00:00.000-0500"
+      },
+      "created":{
+         "$date":"2014-08-20T13:11:50.736-0400"
+      }
+   },
+   "style":{
+      "styleID":"53f4d6d648a5ce0aa52f6bc7",
+      "maps":{
+         "cloudMapID":"interfacefoundry.ig6a7dkn",
+         "cloudMapName":"urban",
+         "type":"cloud"
+      },
+      "markers":{
+         "name":"red",
+         "category":"all"
+      }
+   },
+   "landmarkCategories":[
+
+   ],
+   "subType":[
+    "Award Nominee"
+   ],
+   "loc":{
+      "type":"Point",
+      "coordinates":[
+         -73.94727408885957,
+         40.68255001954699
+      ]
+   },
+   "__v":0
+},{
+   "_id":{
+      "$oid":"53f4d71248a5ce0aa52f6bcb"
+   },
+   "name":"World 4",
+   "id":"World_4",
+   "world":true,
+   "valid":true,
+   "avatar":"img/tidepools/default.jpg",
+   "tags":[
+
+   ],
+   "permissions":{
+      "ownerID":"53c6b2c071109400002078c6",
+      "admins":[
+
+      ],
+      "viewers":[
+
+      ]
+   },
+   "timetext":{
+      "timeend":"2014-08-21T03:12:20.970Z",
+      "timestart":"2014-08-20T17:12:20.970Z",
+      "dateend":"2014-08-20T17:12:20.970Z",
+      "datestart":"2014-08-20T17:12:20.970Z"
+   },
+   "time":{
+      "end":{
+         "$date":"1969-12-31T19:00:00.000-0500"
+      },
+      "start":{
+         "$date":"1969-12-31T19:00:00.000-0500"
+      },
+      "created":{
+         "$date":"2014-08-20T13:12:50.507-0400"
+      }
+   },
+   "style":{
+      "styleID":"53f4d71248a5ce0aa52f6bca",
+      "maps":{
+         "cloudMapID":"interfacefoundry.ig6a7dkn",
+         "cloudMapName":"urban",
+         "type":"cloud"
+      },
+      "markers":{
+         "name":"red",
+         "category":"all"
+      }
+   },
+   "landmarkCategories":[
+
+   ],
+   "subType":[
+    "Lecture"
+   ],
+   "loc":{
+      "type":"Point",
+      "coordinates":[
+         -73.947238,
+         40.682598
+      ]
+   },
+   "__v":0
+},{
+   "_id":{
+      "$oid":"53f4d81948a5ce0aa52f6bce"
+   },
+   "name":"World 5",
+   "id":"World_5",
+   "world":true,
+   "valid":true,
+   "avatar":"img/tidepools/default.jpg",
+   "tags":[
+
+   ],
+   "permissions":{
+      "ownerID":"53c6b2c071109400002078c6",
+      "admins":[
+
+      ],
+      "viewers":[
+
+      ]
+   },
+   "timetext":{
+      "timeend":"2014-08-20T17:16:34.247Z",
+      "timestart":"2014-08-20T17:16:34.247Z",
+      "dateend":"2014-08-21T04:00:00.000Z",
+      "datestart":"2014-08-20T17:16:34.247Z"
+   },
+   "time":{
+      "end":{
+         "$date":"1969-12-31T19:00:00.000-0500"
+      },
+      "start":{
+         "$date":"1969-12-31T19:00:00.000-0500"
+      },
+      "created":{
+         "$date":"2014-08-20T13:17:13.790-0400"
+      }
+   },
+   "style":{
+      "styleID":"53f4d81948a5ce0aa52f6bcd",
+      "maps":{
+         "cloudMapID":"interfacefoundry.ig6a7dkn",
+         "cloudMapName":"urban",
+         "type":"cloud"
+      },
+      "markers":{
+         "name":"red",
+         "category":"all"
+      }
+   },
+   "landmarkCategories":[
+
+   ],
+   "subType":[
+    "Show"
+   ],
+   "loc":{
+      "type":"Point",
+      "coordinates":[
+         -73.94742429256441,
+         40.68285511995137
+      ]
+   },
+   "__v":0
+},{
+   "_id":{
+      "$oid":"53f4d87448a5ce0aa52f6bd1"
+   },
+   "name":"World 6",
+   "id":"World_6",
+   "world":true,
+   "valid":true,
+   "avatar":"img/tidepools/default.jpg",
+   "tags":[
+
+   ],
+   "permissions":{
+      "ownerID":"53c6b2c071109400002078c6",
+      "admins":[
+
+      ],
+      "viewers":[
+
+      ]
+   },
+   "timetext":{
+      "timeend":"2014-08-21T01:17:18.084Z",
+      "timestart":"2014-08-20T17:17:18.084Z",
+      "dateend":"2014-08-30T04:00:00.000Z",
+      "datestart":"2014-08-05T17:17:18.084Z"
+   },
+   "time":{
+      "end":{
+         "$date":"1969-12-31T19:00:00.000-0500"
+      },
+      "start":{
+         "$date":"1969-12-31T19:00:00.000-0500"
+      },
+      "created":{
+         "$date":"2014-08-20T13:18:44.905-0400"
+      }
+   },
+   "style":{
+      "styleID":"53f4d87448a5ce0aa52f6bd0",
+      "maps":{
+         "cloudMapID":"interfacefoundry.ig6a7dkn",
+         "cloudMapName":"urban",
+         "type":"cloud"
+      },
+      "markers":{
+         "name":"red",
+         "category":"all"
+      }
+   },
+   "landmarkCategories":[
+
+   ],
+   "subType":[
+    "Award Nominee"
+   ],
+   "loc":{
+      "type":"Point",
+      "coordinates":[
+         -73.94660890102388,
+         40.68218389721829
+      ]
+   },
+   "__v":0
+},{
+   "_id":{
+      "$oid":"53f4d88448a5ce0aa52f6bd4"
+   },
+   "name":"World 7",
+   "id":"World_7",
+   "world":true,
+   "valid":true,
+   "avatar":"img/tidepools/default.jpg",
+   "tags":[
+
+   ],
+   "permissions":{
+      "ownerID":"53c6b2c071109400002078c6",
+      "admins":[
+
+      ],
+      "viewers":[
+
+      ]
+   },
+   "time":{
+      "created":{
+         "$date":"2014-08-20T13:19:00.253-0400"
+      }
+   },
+   "style":{
+      "styleID":"53f4d88448a5ce0aa52f6bd3",
+      "maps":{
+         "cloudMapID":"interfacefoundry.ig6a7dkn",
+         "cloudMapName":"urban",
+         "type":"cloud"
+      },
+      "markers":{
+         "name":"red",
+         "category":"all"
+      }
+   },
+   "landmarkCategories":[
+
+   ],
+   "subType":[
+    "Lecture"
+   ],
+   "loc":{
+      "type":"Point",
+      "coordinates":[
+         -73.94730091094972,
+         40.68244425108083
+      ]
+   },
+   "__v":0
+},{
+   "_id":{
+      "$oid":"53f4d8a248a5ce0aa52f6bd7"
+   },
+   "name":"World 8",
+   "id":"World_8",
+   "world":true,
+   "valid":true,
+   "avatar":"img/tidepools/default.jpg",
+   "tags":[
+
+   ],
+   "permissions":{
+      "ownerID":"53c6b2c071109400002078c6",
+      "admins":[
+
+      ],
+      "viewers":[
+
+      ]
+   },
+   "timetext":{
+      "timeend":"2014-08-20T17:34:06.433Z",
+      "timestart":"2014-08-20T17:19:06.433Z",
+      "dateend":"2014-08-20T17:19:06.433Z",
+      "datestart":"2014-08-20T17:19:06.433Z"
+   },
+   "time":{
+      "end":{
+         "$date":"1969-12-31T19:00:00.000-0500"
+      },
+      "start":{
+         "$date":"1969-12-31T19:00:00.000-0500"
+      },
+      "created":{
+         "$date":"2014-08-20T13:19:30.336-0400"
+      }
+   },
+   "style":{
+      "styleID":"53f4d8a248a5ce0aa52f6bd6",
+      "maps":{
+         "cloudMapID":"interfacefoundry.ig6a7dkn",
+         "cloudMapName":"urban",
+         "type":"cloud"
+      },
+      "markers":{
+         "name":"red",
+         "category":"all"
+      }
+   },
+   "landmarkCategories":[
+
+   ],
+   "subType":[
+    "Show"
+   ],
+   "loc":{
+      "type":"Point",
+      "coordinates":[
+         -73.94725799560548,
+         40.68257442763075
+      ]
+   },
+   "__v":0
+},{
+   "_id":{
+      "$oid":"53f4d8b648a5ce0aa52f6bda"
+   },
+   "name":"World 9",
+   "id":"World_9",
+   "world":true,
+   "valid":true,
+   "avatar":"img/tidepools/default.jpg",
+   "tags":[
+
+   ],
+   "permissions":{
+      "ownerID":"53c6b2c071109400002078c6",
+      "admins":[
+
+      ],
+      "viewers":[
+
+      ]
+   },
+   "time":{
+      "created":{
+         "$date":"2014-08-20T13:19:50.049-0400"
+      }
+   },
+   "style":{
+      "styleID":"53f4d8b648a5ce0aa52f6bd9",
+      "maps":{
+         "cloudMapID":"interfacefoundry.ig6a7dkn",
+         "cloudMapName":"urban",
+         "type":"cloud"
+      },
+      "markers":{
+         "name":"red",
+         "category":"all"
+      }
+   },
+   "landmarkCategories":[
+
+   ],
+   "subType":[
+    "Award Nominee"
+   ],
+   "loc":{
+      "type":"Point",
+      "coordinates":[
+         -73.94725799560548,
+         40.68255001954699
+      ]
+   },
+   "__v":0
+},{
+   "_id":{
+      "$oid":"53f4d8c748a5ce0aa52f6bdd"
+   },
+   "name":"World 10",
+   "id":"World_10",
+   "world":true,
+   "valid":true,
+   "avatar":"img/tidepools/default.jpg",
+   "tags":[
+
+   ],
+   "permissions":{
+      "ownerID":"53c6b2c071109400002078c6",
+      "admins":[
+
+      ],
+      "viewers":[
+
+      ]
+   },
+   "time":{
+      "created":{
+         "$date":"2014-08-20T13:20:07.211-0400"
+      }
+   },
+   "style":{
+      "styleID":"53f4d8c748a5ce0aa52f6bdc",
+      "maps":{
+         "cloudMapID":"interfacefoundry.ig6a7dkn",
+         "cloudMapName":"urban",
+         "type":"cloud"
+      },
+      "markers":{
+         "name":"red",
+         "category":"all"
+      }
+   },
+   "landmarkCategories":[
+
+   ],
+   "subType":[
+    "Lecture"
+   ],
+   "loc":{
+      "type":"Point",
+      "coordinates":[
+         -73.94998311996461,
+         40.68250933938756
+      ]
+   },
+   "__v":0
+}]
