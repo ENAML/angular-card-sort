@@ -3,26 +3,27 @@
 angular.module('codeTestApp')
   .controller('MainCtrl', function ($scope,$http) {
 
-    // instantiate groups
-    $scope.lectures = [];
-    $scope.shows = [];
-    $scope.awardNominees = [];
+    $scope.groups = {};
 
     // get data from JSON file
     $http.get('front_end_demo.json').success(function(json){
       var items = json.data;
 
-      //sort items into groups
-      var i = 0;
-      for (i; i < items.length; i++) {
-        if (items[i].subType === 'Lecture') {
-          $scope.lectures.push(items[i]);
-        } else if (items[i].subType === 'Show') {
-          $scope.shows.push(items[i]);
-        } else if (items[i].subType === 'Award Nominee') {
-          $scope.awardNominees.push(items[i]);
+      // go through items in JSON
+      for (var i = 0; i < items.length; i++) {
+        var subType = items[i].subType;
+
+        // if subType exists in groups already, push item into subType group
+        // if not, create an array with subType name and push item into that
+        if ($scope.groups.hasOwnProperty(subType)) {
+          $scope.groups[subType].push(items[i]);
+        } else {
+          $scope.groups[subType] = [];
+          $scope.groups[subType].push(items[i]);
         }
       }
+      console.log($scope.groups);
+
     }).error(function() {
       console.log('uh oh');
     });
