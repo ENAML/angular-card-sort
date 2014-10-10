@@ -4,28 +4,44 @@
 
 <div class="row marketing">
 
-  <div ng-repeat="group in groups" class="group">
 
-    <div ng-repeat="item in group" class="item">
 
-      <span ng-if="$index == 0">
-        <h2><a href="" >{{item.name}}</a></h2>
-        <h3>{{item.subType}}</h3>
-        <p ng-if="item.shortDescription">{{item.shortDescription}}</p>
-        <p ng-if="!item.shortDescription">No description available.</p>
-        <br />
-      </span>
+  <div ng-repeat="row in groupsSortedByRow" class="row">
 
-      <span ng-if="$index != 0">
-        <h4><a href="" ng-click="toTop(item, group)">{{item.name}}</a></h4>
-      </span>
+    <div class="group col-xs-12 col-md-6 col-md-6" ng-repeat="group in row">
+      <div ng-repeat="item in group" class="item">
 
+        <div ng-if="$index == 0" class="top-item">
+          <div class="left-head">
+            <h2><a href="" ng-click="openModal(item)">{{item.name}}</a></h2>
+            <h3>{{item.subType}}</h3>
+          </div>
+          <div class="right-head">
+            <h1 ng-if="item.subType === 'Lecture'" class="lecture">▲</h1>
+            <h1 ng-if="item.subType === 'Show'" class="show">⬤</h1>
+            <h1 ng-if="item.subType === 'Award Nominee'" class="award-nominee">⬛</h1>
+          </div>
+          <div class="description">
+            <p ng-if="item.shortDescription">{{item.shortDescription}}</p>
+            <p ng-if="!item.shortDescription">No description available.</p>
+          </div>
+        </div>
+        <div ng-if="$index != 0" class="bottom-items">
+          <h4><a href="" ng-click="toTop(item, group)">{{item.name}}</a></h4>
+        </div>
+
+      </div>
     </div>
 
   </div>
 
+
 </div>
 
+<div id="modal" ng-if="modal.show === true">
+  <p>{{modal.name}} - {{modal.subType}} - {{modal.shortDescription}}</p>
+  <a href="" ng-click="closeModal()">close me</a>
+</div>
 
 <div class="footer">
   <p><span class="glyphicon glyphicon-heart"></span> Interface Foundry</p>

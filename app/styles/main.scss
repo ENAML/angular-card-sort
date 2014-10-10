@@ -74,7 +74,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+        max-width: 1000px;
     }
 
     /* Remove the padding we set earlier */
@@ -98,14 +98,42 @@ body {
 
 
 
+
 .group {
-  padding: 10px;
-  background-color: #eee;
   margin-bottom: 10px;
 }
 
 .item {
-  background-color: #ddd;
-  padding: 10px;
-  margin-bottom: 10px;
+
 }
+
+.top-item {
+  padding: 20px;
+  border: solid 3px #000;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.bottom-items {
+  border: solid 3px #000;
+  background-color: #eee;
+  padding: 0px 20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.left-head {
+  float: left;
+  width: 70%;
+}
+
+.right-head {
+  text-align: center;
+  float: right;
+  width: 30%;
+}
+
+.description {
+  clear: both;
+}
+
