@@ -19,6 +19,7 @@ body {
     color: #000;
     padding-top: 20px;
     padding-bottom: 20px;
+    // font-size: 1em;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -31,7 +32,7 @@ body {
 
 /* Custom page header */
 .header {
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 3px solid #000;
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -40,13 +41,7 @@ body {
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px;
-}
-
-/* Custom page footer */
-.footer {
-    padding-top: 19px;
-    color: #777;
-    border-top: 1px solid #e5e5e5;
+    color: #000;
 }
 
 .container-narrow > hr {
@@ -96,28 +91,33 @@ body {
     }
 }
 
+////////////////
+// Minor tweaks
+////////////////
 
+a, a:hover, a:visited, a:active {
+  font-weight: bold;
+  color: #000;
+}
 
-
-
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
 
 .group {
   margin-bottom: 20px;
 }
 
-
-
+///////////////////
+// Card Group CSS
+///////////////////
 
 .item > .top-item {
   cursor: pointer;
   padding: 20px;
   border: solid 3px #000;
-  // border-bottom: 0px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-    // -webkit-box-shadow: 0px 0px 5px 0px #000000;
-    //  -moz-box-shadow: 0px 0px 5px 0px #000000;
-    //       box-shadow: 0px 0px 5px 0px #000000;
 }
 
 .item > .bottom-item {
@@ -127,10 +127,6 @@ body {
   border-top: 0px;
   background-color: #eee;
   padding: 1px 20px 0 20px;
-
-    // -webkit-box-shadow: 0px 0px 5px 0px #000000;
-    //    -moz-box-shadow: 0px 0px 5px 0px #000000;
-    //         box-shadow: 0px 0px 2px 0px #000000;
 }
 
 .item:last-child > .bottom-item {
@@ -148,43 +144,86 @@ body {
 }
 
 .right-head {
-  text-align: center;
+  text-align: left;
   float: right;
   width: 20%;
+  font-size: 6em;
 }
 
 .description {
   clear: both;
 }
 
-a, a:hover, a:visited, a:active {
-  font-weight: bold;
-  color: #000;
+.lecture {
+  color: #7200ff;
 }
 
-// $items: items;
+.show {
+  color: #ff3600;
+}
 
-// .#{$items} {
-//   background: red;
-// // }
+.award-nominee {
+  color: #00ff9c;
+}
 
-// .item:nth-child(1) {
-//   z-index: 5;
+////////////////
+// MODAL CSS
+////////////////
 
-// }
+#fade {
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 666;
+  opacity: .9;
+  background-color: #fff;
+}
 
-// .item:nth-child(2) {
-//   z-index: 10;
-// }
+#modal-window {
+  z-index: 999;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  min-width: 350px;
+  max-width: 600px;
+  background-color: #fff;
+  border: solid 3px #000;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
 
-// .items:nth-child(3) {
-//   z-index: 9;
-// }
+#modal-header {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-top: 0px;
+  padding: 1px 20px 1px 20px;
+  width: 100%;
+  border-bottom: solid 3px #000;
+  text-align: left;
+  background-color: #eee;
+}
 
-// .items:nth-child(4) {
-//   z-index: 8;
-// }
+#modal-subtype {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 1px 20px 1px 20px;
+  width: 100%;
+  text-align: left;
+}
 
-// .items:nth-child(5) {
-//   z-index: 7;
-// }
+#modal-content {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0 20px 20px 20px;
+  width: 100%;
+  text-align: left;
+}

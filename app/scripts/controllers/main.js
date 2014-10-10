@@ -31,8 +31,6 @@ angular.module('codeTestApp')
       }
     };
 
-    // necessary for column filter
-
     // get data from JSON file
     $http.get('front_end_demo.json').success(function(json){
       var items = json.data;
@@ -51,16 +49,12 @@ angular.module('codeTestApp')
         }
       }
       // console.log($scope.groups);
-
       $scope.groupSort($scope.groups, $scope.columns);
-
       // console.log($scope.groupsSortedByRow);
 
     }).error(function() {
       console.log('uh oh');
     });
-
-
 
     // moves item in one of the groups from previous location to top/front
     $scope.toTop = function(item, group) {
@@ -69,9 +63,7 @@ angular.module('codeTestApp')
       group.unshift(item);
     };
 
-
     // TODO: separate modal into it's own controller
-
     $scope.modal = {
       show: false,
       name: '',

@@ -1,5 +1,5 @@
 <div class="header">
-  <h3 class="text-muted">code_test</h3>
+  <h2>Interface Foundry</h2>
 </div>
 
 <div class="row marketing">
@@ -13,16 +13,16 @@
         <div ng-if="$index == 0" ng-click="openModal(item)"  class="top-item">
           <div class="left-head">
             <h2>{{item.name}}</h2>
-            <h3>{{item.subType}}</h3>
+            <h4>{{item.subType}}</h4>
           </div>
           <div class="right-head">
-            <h1 ng-if="item.subType === 'Lecture'" class="lecture">▲</h1>
-            <h1 ng-if="item.subType === 'Show'" class="show">⬤</h1>
-            <h1 ng-if="item.subType === 'Award Nominee'" class="award-nominee">⬛</h1>
+            <span ng-if="item.subType === 'Lecture'" class="lecture">▴</span>
+            <span ng-if="item.subType === 'Show'" class="show">●</span>
+            <span ng-if="item.subType === 'Award Nominee'" class="award-nominee">■</span>
           </div>
           <div class="description">
-            <p ng-if="item.shortDescription">{{item.shortDescription}}</p>
-            <p ng-if="!item.shortDescription">No description available.</p>
+            <h4 ng-if="item.shortDescription">{{item.shortDescription}}</h4>
+            <h4 ng-if="!item.shortDescription">No description available.</h4>
           </div>
         </div>
 
@@ -38,13 +38,23 @@
 
 </div>
 
-<div id="modal" ng-if="modal.show === true">
-  <p>{{modal.name}} - {{modal.subType}} - {{modal.shortDescription}}</p>
-  <a href="" ng-click="closeModal()">close me</a>
+<div id="modal" ng-if="modal.show === true" style="clear:both;">
+  <div id="fade" ng-click="closeModal()"></div>
+  <div id="modal-window">
+    <div id="modal-header">
+      <h1>{{modal.name}}</h1>
+    </div>
+    <div id="modal-subtype">
+      <h1 ng-if="modal.subType === 'Lecture'" class="lecture">{{modal.subType}}</h1>
+      <h1 ng-if="modal.subType === 'Show'" class="show">{{modal.subType}}</h1>
+      <h1 ng-if="modal.subType === 'Award Nominee'" class="award-nominee">{{modal.subType}}</h1>
+    </div>
+    <div id="modal-content">
+      <h2>{{modal.shortDescription}}</h2>
+      <h2 ng-if="!modal.shortDescription">No description available.</h2>
+    </div>
 
+    <!-- <a href="" ng-click="closeModal()">close me</a> -->
+  </div>
 
-</div>
-
-<div class="footer">
-  <p><span class="glyphicon glyphicon-heart"></span> Interface Foundry</p>
 </div>
