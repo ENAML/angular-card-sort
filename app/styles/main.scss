@@ -15,6 +15,8 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 
 /* Space out content a bit */
 body {
+    font-family: 'Droid Sans';
+    color: #000;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -74,7 +76,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 1000px;
+        max-width: 800px;
     }
 
     /* Remove the padding we set earlier */
@@ -100,40 +102,89 @@ body {
 
 
 .group {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.item {
 
-}
 
-.top-item {
+
+.item > .top-item {
+  cursor: pointer;
   padding: 20px;
   border: solid 3px #000;
+  // border-bottom: 0px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+    // -webkit-box-shadow: 0px 0px 5px 0px #000000;
+    //  -moz-box-shadow: 0px 0px 5px 0px #000000;
+    //       box-shadow: 0px 0px 5px 0px #000000;
 }
 
-.bottom-items {
+.item > .bottom-item {
+  cursor: pointer;
+  margin-top: 0px;
   border: solid 3px #000;
+  border-top: 0px;
   background-color: #eee;
-  padding: 0px 20px;
+  padding: 1px 20px 0 20px;
+
+    // -webkit-box-shadow: 0px 0px 5px 0px #000000;
+    //    -moz-box-shadow: 0px 0px 5px 0px #000000;
+    //         box-shadow: 0px 0px 2px 0px #000000;
+}
+
+.item:last-child > .bottom-item {
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
+.bottom-item:hover {
+  background-color: #fff;
+}
+
 .left-head {
   float: left;
-  width: 70%;
+  width: 80%;
 }
 
 .right-head {
   text-align: center;
   float: right;
-  width: 30%;
+  width: 20%;
 }
 
 .description {
   clear: both;
 }
 
+a, a:hover, a:visited, a:active {
+  font-weight: bold;
+  color: #000;
+}
+
+// $items: items;
+
+// .#{$items} {
+//   background: red;
+// // }
+
+// .item:nth-child(1) {
+//   z-index: 5;
+
+// }
+
+// .item:nth-child(2) {
+//   z-index: 10;
+// }
+
+// .items:nth-child(3) {
+//   z-index: 9;
+// }
+
+// .items:nth-child(4) {
+//   z-index: 8;
+// }
+
+// .items:nth-child(5) {
+//   z-index: 7;
+// }

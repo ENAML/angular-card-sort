@@ -6,10 +6,30 @@ angular.module('codeTestApp')
 
     // TODO: Separate groups into Angular Service (?)
     $scope.groups = {}; //hashtable version
-    $scope.groupsArray = []; // need for filtering into rows
-    $scope.groupsSortedByRow = [];
+    $scope.groupsSortedByRow = []; // groups organized into arrays of length "columns"
     $scope.columns = 2; // max number of columns per row;
 
+    // sorting function for putting groups into grid
+    $scope.groupSort = function(groups, columns) {
+
+      var rowCounter = 0;
+      $scope.groupsSortedByRow[rowCounter] = [];
+
+      var columnCounter = 0;
+
+      for (var group in groups) {
+        if (columnCounter < columns) {
+          $scope.groupsSortedByRow[rowCounter].push(groups[group]);
+          columnCounter++;
+        } else {
+          rowCounter++;
+          $scope.groupsSortedByRow[rowCounter] = [];
+          $scope.groupsSortedByRow[rowCounter].push(groups[group]);
+          columnCounter = 0;
+          columnCounter++;
+        }
+      }
+    };
 
     // necessary for column filter
 
@@ -30,37 +50,11 @@ angular.module('codeTestApp')
           $scope.groups[subType].push(items[i]);
         }
       }
-      console.log($scope.groups);
+      // console.log($scope.groups);
 
-      // puts groups into groupsArray
-      for (var group in $scope.groups) {
-        $scope.groupsArray.push($scope.groups[group]);
-      }
+      $scope.groupSort($scope.groups, $scope.columns);
 
-      console.log($scope.groupsArray);
-
-      // Sorting into rows
-
-      var rowCounter = 0;
-      $scope.groupsSortedByRow[rowCounter] = [];
-
-      var columnCounter = 0;
-
-      for (var i = 0; i < $scope.groupsArray.length; i++) {
-        if (columnCounter < $scope.columns) {
-          $scope.groupsSortedByRow[rowCounter].push($scope.groupsArray[i]);
-          columnCounter++;
-        } else {
-          rowCounter++;
-          $scope.groupsSortedByRow[rowCounter] = [];
-          $scope.groupsSortedByRow[rowCounter].push($scope.groupsArray[i]);
-          columnCounter = 0;
-          columnCounter++;
-
-        }
-      }
-
-      console.log($scope.groupsSortedByRow);
+      // console.log($scope.groupsSortedByRow);
 
     }).error(function() {
       console.log('uh oh');
